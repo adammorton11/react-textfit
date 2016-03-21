@@ -25,6 +25,7 @@ export default createClass({
 
     propTypes: {
         children: PropTypes.oneOfType([
+            PropTypes.array,
             PropTypes.string,
             PropTypes.func
         ]),
